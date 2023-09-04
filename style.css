@@ -21,9 +21,19 @@ a{
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
+    text-decoration: none;
+}
+
+ul{
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+li{
+    list-style: none;
 }
 
 body{
-    background-color: #eedee6;
+    background-color: #e8f5f2;
 }
 
