@@ -1,5 +1,14 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+body{
+    background-color: #CFDEE7;
+    background-attachment: fixed;
+}
+
 main{
-    background-color: #e8f5f2;
     padding-left: 400px;
     padding-right: 400px;
 }
@@ -9,25 +18,8 @@ footer{
     padding-right: 400px;
 }
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
-}
-
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
-}
-
-div{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
-}
-
 a{
     font-size: larger;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
     text-decoration: none;
 }
 
