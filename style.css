@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #CFDEE7;
+    background: linear-gradient(45deg, #cfdee7, #5e7ce2);
     background-attachment: fixed;
 }
 
