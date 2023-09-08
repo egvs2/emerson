@@ -1,22 +1,35 @@
+@charset "UTF-8";
+
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
 }
 
 body{
-    background: linear-gradient(45deg, #cfdee7, #5e7ce2);
+    background: linear-gradient(45deg, #cfdee7, #92b4f4);
     background-attachment: fixed;
 }
 
 main{
-    padding-left: 400px;
-    padding-right: 400px;
+    background: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #0b3db39f;
 }
 
 footer{
-    padding-left: 400px;
-    padding-right: 400px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
 }
+
+h1{
+    color: #0a369d;
+    text-shadow: 1px 1px 2px #0b3db39f;
+}
+
 
 a{
     font-size: larger;
