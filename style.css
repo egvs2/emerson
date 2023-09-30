@@ -13,41 +13,30 @@
 }
 
 *{
-    font-family: var(--font-padrao);
+    font-family: 'Work Sans', var(--font-padrao);
     font-weight: 400;
 }
 
-body{
-    background: linear-gradient(45deg, #cfdee7, #92b4f4);
+body {
+    background: linear-gradient(180deg, var(--cor00), var(--cor01), var(--cor02), var(--cor03));
     background-attachment: fixed;
 }
 
-footer{
-    width: 600px;
-    padding: 10px;
-    margin: auto;
-}
-
-h1{
-    color: #0a369d;
-    text-shadow: 1px 1px 2px #0b3db39f;
+h1 {
+    color: var(--cor03);
     font-size: 2em;
 }
 
-p{
+p {
     font-size: 1.25em;
 }
 
-a{
+a {
     font-size: larger;
     text-decoration: none;
 }
 
-li{
-    list-style: none;
-}
-
-main{
+main {
     background: white;
     width: 600px;
     padding: 10px;
