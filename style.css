@@ -38,7 +38,8 @@ a {
 
 main {
     background: white;
-    width: 600px;
+    min-width: 280px;
+    max-width: 600px;
     padding: 10px;
     margin: auto;
     border-radius: 5px;
