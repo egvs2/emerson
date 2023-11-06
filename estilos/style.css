@@ -28,11 +28,21 @@ body {
 }
 
 #capa {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
     color: white;
     font-size: 6vw;
+    grid-template-rows: 88vh 12vh;
+}
+
+#capa div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#capa div:first-child{
+    flex-direction: column;
 }
 
 #capa h1, h3, a {
