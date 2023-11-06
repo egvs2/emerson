@@ -55,6 +55,13 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#capa img {
+    clip-path: circle(25px);
+}
+#capa img:hover {
+    background: white;
+}
+
 #eu {
     background: white;
 }
