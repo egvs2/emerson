@@ -28,10 +28,11 @@ body {
 }
 
 #capa {
+    height: 100vh;
     display: grid;
     color: white;
     font-size: 6vw;
-    grid-template-rows: 88vh 12vh;
+    grid-template-rows: 88% 12%;
 }
 
 #capa div {
@@ -57,9 +58,11 @@ body {
     background: white;
 }
 
+/*
 #serviço {
 
 }
+*/
 
 #contato {
     background: white;
