@@ -74,7 +74,6 @@ body {
     background: white;
     grid-template-rows: 20% 30% 40% 10%;
     padding: 10px;
-    text-decoration: none;
 }
 
 #contato h1:first-child {
@@ -92,6 +91,7 @@ body {
     justify-content: center;
 }
 
-#contato div, #contato span {
+#contato div, #contato span, #contado p {
     padding: 10px;
+    text-decoration: none;
 }
