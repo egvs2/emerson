@@ -63,20 +63,6 @@ body {
     background: var(--cor02);
 }
 
-#eu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    width: 100vw;
-}
-
-#serviço {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #contato {
     background: white;
     grid-template-rows: 20% 30% 40% 10%;
