@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
 :root {
     --cor00: #cfdee7;
     --cor01: #92B4f4;
@@ -32,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 #capa div:first-child{
@@ -73,7 +82,7 @@ body {
 #contato {
     background: white;
     grid-template-rows: 20% 30% 40% 10%;
-    padding: 10px;
+    width: 100vw;
 }
 
 #contato h1:first-child {
