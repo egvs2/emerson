@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 992px) {
+
     #eu > img, #serviço > img {
-        content: url('/imagens/construcao2-removebg-preview.png');   
+        display: none;
+    }
+    #eu::before, #serviço::before{
+        content: url('/imagens/construcao2-removebg-preview.png');
     }
 }
