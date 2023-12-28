@@ -41,7 +41,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
 }
 
 #capa div:first-child{
@@ -69,8 +68,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
     width: 100vw;
+    background: white;
 }
 
 #serviço {
