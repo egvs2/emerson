@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 992px) {
-    .imagem {
-        content: url('/imagens/construcao2-removebg-preview.png');
-        width: 300px;
-        height: 300px;
+    #eu > img, #serviço > img {
+        content: url('/imagens/construcao2-removebg-preview.png');   
     }
-    
 }
