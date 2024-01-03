@@ -47,9 +47,13 @@ body {
     flex-direction: column;
 }
 
-#capa h1, #capa h3, #capa a {
+#capa h1, #capa h3, #capa a, #menu {
     margin: 10px;
     text-shadow: 2px 2px 4px var(--cor02);
+}
+
+a {
+    text-decoration: none;
 }
 
 #capa h3 {
