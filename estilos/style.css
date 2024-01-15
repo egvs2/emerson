@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
-*,*:before,*:after{
+*,*::before,*::after{
     box-sizing: inherit;
 }
 
@@ -47,7 +47,15 @@ body {
     flex-direction: column;
 }
 
-#capa h1, #capa h3, #capa a, #menu {
+#capa h1, #capa h3, #capa a {
+    margin: 10px;
+    text-shadow: 2px 2px 4px var(--cor02);
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
     margin: 10px;
     text-shadow: 2px 2px 4px var(--cor02);
 }
