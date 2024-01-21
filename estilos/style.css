@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-padrao);
 }
 *,*::before,*::after{
     box-sizing: inherit;
@@ -15,7 +18,7 @@ html, body {
     --cor02: #5e7ce2;
     --cor03: #0a369d;
 
-    --font-padrao: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-padrao: 'Work Sans', sans-serif;
 }
 
 
@@ -27,29 +30,51 @@ body {
 }
 
 .fundo {
-    display: grid;
     height: 100vh;
+    width: 100vw;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
 }
 
 #capa {
-    color: white;
-    font-size: 6vw;
-    grid-template-rows: 80% 20%;
-}
-
-#capa div {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#capa div:first-child{
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items:  center;
+    color: white;
 }
 
-#capa h1, #capa h3, #capa a {
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+#capa h1 {
+    font-weight: bold;
+    font-size: 6vw;
+}
+
+#capa h3 {
+    font-weight: 400;
+    font-size: 3vw;
+}
+#capa h1, #capa h3{
     margin: 10px;
     text-shadow: 2px 2px 4px var(--cor02);
+    
 }
 
 #nav-bar {
@@ -60,20 +85,8 @@ body {
     text-shadow: 2px 2px 4px var(--cor02);
 }
 
-a {
-    text-decoration: none;
-}
-
 #capa h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#capa img {
-    clip-path: circle(25px);
-}
-
-#capa img:hover {
-    background: var(--cor02);
+    font-family: var(--font-padrao);
 }
 
 #eu {
@@ -92,26 +105,25 @@ a {
 
 #contato {
     background: white;
-    grid-template-rows: 20% 30% 40% 10%;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #contato h1:first-child {
-    display: flex;
-    padding: 10px;
-    justify-content: flex-start;
-    align-items: center;
     font-weight: bolder;
-}
-
-#contato div, #contato footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #contato div, #contato span, #contado p {
     padding: 10px;
     text-decoration: none;
+}
+
+#contato footer{
+   height: 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: end;
 }

@@ -1,14 +1,23 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 992px) {
-    .imagem {
-        width: 300px;
-    }
-    
-}
-
 @media (prefers-reduced-motion:no-preference){
     *{
         scroll-behavior: smooth;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .conteudo {
+        max-width: 500px;
+    }
+
+    #capa h1 {
+        font-weight: bold;
+        font-size: 6vh;
+    }
+    
+    #capa h3 {
+        font-weight: 400;
+        font-size: 3vh;
     }
 }
