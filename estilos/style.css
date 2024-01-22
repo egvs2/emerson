@@ -106,13 +106,10 @@ nav a {
 iframe {
     width: 300px;
     height: 200px;
+    padding: 30px;
 }
 
-#freeCodeCamp button {
-    display: block;
-    margin: auto;
-}
-#github button {
+#serviço button {
     display: block;
     margin: auto;
 }

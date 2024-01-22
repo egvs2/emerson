@@ -1,3 +1,11 @@
-function abrirNovaPagina() {
-    window.open('https://www.freecodecamp.org/certification/Emerson_Silva/responsive-web-design', '_blanck')
+function abrirPagina(id) {
+    let elemento = document.getElementById(id);
+    if (elemento){
+        let meuHref = elemento.querySelector('a').href;
+        console.log(meuHref);
+    }else {
+        console.log("elemento não encontrado!");
+    }
+
 }
+
