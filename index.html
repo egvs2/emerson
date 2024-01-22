@@ -10,6 +10,7 @@
 </head>
 <body>
     <main>
+        <!--Introdução-->
         <section id="capa" class="fundo">
             <nav id="nav-bar">
                 <a href="#eu">Bio</a>
@@ -21,19 +22,32 @@
                 <h3>Desenvolvedor</h3>
             </div>
         </section>
+
+        <!--Biografia-->
         <section id="eu" class="fundo">
             <div class="conteudo">
                 <img class="imagem" src="imagens/pagina_em_construcao-01-removebg-preview.png" alt="Página em construção">
-                        </section>
-                        <section id="serviço" class="fundo">
-                <img class="imagem" src="imagens/pagina_em_construcao-01-removebg-preview.png" alt="Página em construção">
             </div>
         </section>
+
+        <!--Experiência-->
+        <section id="serviço" class="fundo">
+                <div id="freeCodeCamp">
+                    <iframe src="imagens/certificado-freeCodeCamp.jpg" frameborder="0"><a href="https://www.freecodecamp.org/certification/Emerson_Silva/responsive-web-design"></a></iframe>
+                    <button id="button1" onclick="abrirNovaPagina()">abrir</button>
+                </div>
+
+                <div id="github">
+                    <iframe src="imagens/captura_github.png" frameborder="0"><a href="https://github.com/egvs2" id="captura_github"></a></iframe>
+                    <button onclick="abrirNovaPagina()" id="button2">abrir</button>
+                </div>
+        </section>
+
+        <!--Contato-->
         <section id="contato" class="fundo">
             <div class="conteudo">
                 <h1>contato</h1>
                 <div>
-                    
                     <p>Email</p>
                     <p>emersongvs@gmail.com</p>
                 </div>
@@ -47,5 +61,6 @@
             </footer>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
