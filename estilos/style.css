@@ -99,19 +99,26 @@ nav a {
 
 #serviço {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 iframe {
-    width: 300px;
-    height: 200px;
-    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+iframe img {
+    display: block;
+    width: 100%;
 }
 
 #serviço button {
     display: block;
     margin: auto;
+    border-radius: 10px;
 }
 
 #contato {
