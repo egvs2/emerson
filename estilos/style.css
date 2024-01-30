@@ -104,21 +104,20 @@ nav a {
     flex-wrap: wrap;
 }
 
-iframe {
+.imagens {
+    width: 280px;
+    height: 175px;
     border-radius: 10px;
-    border: 1px solid black;
-    text-align: center;
+    overflow: hidden;
 }
 
-iframe img {
-    display: block;
+.imagens img {
+    height: 100%;
     width: 100%;
 }
 
-#serviço button {
-    display: block;
-    margin: auto;
-    border-radius: 10px;
+#freeCodeCamp:hover {
+    
 }
 
 #contato {
